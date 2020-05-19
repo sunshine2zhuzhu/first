@@ -761,3 +761,8 @@ def big_neighbor_search(cur_vehs:list,cur_obj:int,iter_max = 100,p_init = 1000,h
             cur_vehs[i].Route = copy.copy(cur_best_vehs[i].Route)
         T *= h
     return global_best_vehs,global_best_obj
+
+
+def mul(a, b):
+    return (a * b)
+
