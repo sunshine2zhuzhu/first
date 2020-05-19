@@ -765,3 +765,4 @@ def big_neighbor_search(cur_vehs:list,cur_obj:int,iter_max = 100,p_init = 1000,h
 if __name__ == '__main__':
     print([1,2,3])
     print('anc')
+    print('ck')
